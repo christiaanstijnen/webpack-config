@@ -7,9 +7,9 @@ module.exports = ( config ) => {
   return {
     entry: config.entries,
     output: {
-      filename: 'js/[name].js',
+      filename: 'js/[name][hash].js',
       path:  path.resolve( path.dirname( config.PATH ), config.dist ),
-      chunkFilename: '[name].js',
+      chunkFilename: '[name][hash].js',
       clean: true,
       publicPath: config.publicPath
     },
