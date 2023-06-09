@@ -1,6 +1,6 @@
 {
   "name": "@mhwp/webpack-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Webpack config for Tatabanya WP theme",
   "main": "index.js",
   "scripts": {},
